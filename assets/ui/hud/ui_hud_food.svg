@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="rim" x1="16" y1="8" x2="57" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#FFC742"/><stop offset="1" stop-color="#F47A17"/></linearGradient>
+    <linearGradient id="blue" x1="24" y1="29" x2="48" y2="55" gradientUnits="userSpaceOnUse"><stop stop-color="#39B9FF"/><stop offset="1" stop-color="#1476E8"/></linearGradient>
+    <filter id="s" x="6" y="6" width="60" height="60" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".18"/></filter>
+  </defs>
+  <g filter="url(#s)">
+    <circle cx="36" cy="36" r="30" fill="url(#rim)"/>
+    <circle cx="36" cy="36" r="25.5" fill="#FFF9EF" stroke="#FFE2B5"/>
+    <ellipse cx="36" cy="36" rx="15" ry="6.8" fill="#0E62C8"/>
+    <path d="M21.8 36h28.4l-2.7 13.1c-.5 2.6-2.8 4.4-5.4 4.4H29.9c-2.6 0-4.9-1.8-5.4-4.4L21.8 36Z" fill="url(#blue)" stroke="#0B5DC4" stroke-width="1.5"/>
+    <ellipse cx="36" cy="36" rx="14.2" ry="5.9" fill="#2FAEFF"/>
+    <circle cx="28.5" cy="34.6" r="2.7" fill="#8BCB37"/><circle cx="34.2" cy="33.8" r="3.1" fill="#9A5A2D"/><circle cx="41" cy="35.1" r="2.8" fill="#C46A31"/>
+    <path d="M43.5 31.8c1.8-2.4 4.9-2.4 6.6-.5 1.7 1.9 1.3 4.8-.9 6.4-2.3 1.6-5.2.8-6.5-1.1-1-1.4-.7-3.2.8-4.8Z" fill="#F7931E"/>
+    <g fill="#FFF8ED"><circle cx="36" cy="46.4" r="2.4"/><circle cx="32.7" cy="43.8" r="1.25"/><circle cx="39.3" cy="43.8" r="1.25"/><circle cx="30.7" cy="46.7" r="1.15"/><circle cx="41.3" cy="46.7" r="1.15"/></g>
+  </g>
+</svg>

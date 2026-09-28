@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+  <defs>
+    <linearGradient id="rim" x1="14" y1="8" x2="58" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#FFC742"/><stop offset="1" stop-color="#F47A17"/></linearGradient>
+    <linearGradient id="dot" x1="28" y1="31" x2="44" y2="44" gradientUnits="userSpaceOnUse"><stop stop-color="#47C0FF"/><stop offset="1" stop-color="#1474E2"/></linearGradient>
+    <filter id="s" x="6" y="6" width="60" height="60" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".18"/></filter>
+  </defs>
+  <g filter="url(#s)">
+    <circle cx="36" cy="36" r="30" fill="url(#rim)"/>
+    <circle cx="36" cy="36" r="25.5" fill="#FFF9EF" stroke="#FFE2B5"/>
+    <circle cx="27" cy="36" r="4.3" fill="url(#dot)"/><circle cx="36" cy="36" r="4.3" fill="url(#dot)"/><circle cx="45" cy="36" r="4.3" fill="url(#dot)"/>
+    <circle cx="25.7" cy="34.7" r="1" fill="#B7E7FF"/><circle cx="34.7" cy="34.7" r="1" fill="#B7E7FF"/><circle cx="43.7" cy="34.7" r="1" fill="#B7E7FF"/>
+  </g>
+</svg>

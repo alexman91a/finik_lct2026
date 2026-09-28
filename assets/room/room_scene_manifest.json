@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "scene": "finik_room_v1",
+  "units": "meters",
+  "coordinateSystem": {
+    "width": "X",
+    "depth": "Y",
+    "height": "Z"
+  },
+  "interactive": {
+    "bed": {
+      "object": "interactive_bed",
+      "action": "sleep",
+      "navPoint": "nav_bed"
+    },
+    "desk": {
+      "object": "interactive_desk",
+      "action": "desk",
+      "navPoint": "nav_desk"
+    },
+    "chair": {
+      "object": "interactive_chair",
+      "action": "desk",
+      "navPoint": "nav_desk"
+    },
+    "sofa": {
+      "object": "interactive_sofa",
+      "action": "rest",
+      "navPoint": "nav_sofa"
+    },
+    "fridge": {
+      "object": "interactive_fridge",
+      "action": "food",
+      "navPoint": "nav_fridge"
+    },
+    "door": {
+      "object": "interactive_door",
+      "action": "outside",
+      "navPoint": "nav_door"
+    },
+    "backpack": {
+      "object": "interactive_backpack",
+      "action": "backpack",
+      "navPoint": "nav_backpack"
+    },
+    "piggyBank": {
+      "object": "interactive_piggy_bank",
+      "action": "savings",
+      "navPoint": "nav_piggy_bank"
+    }
+  },
+  "navigation": {
+    "spawnCenter": "nav_spawn_center",
+    "centerStory": "nav_center_story",
+    "bed": "nav_bed",
+    "sofa": "nav_sofa",
+    "desk": "nav_desk",
+    "fridge": "nav_fridge",
+    "door": "nav_door",
+    "backpack": "nav_backpack",
+    "piggyBank": "nav_piggy_bank",
+    "window": "nav_window",
+    "friendEntry": "nav_friend_entry",
+    "deliveryDrop": "nav_delivery_drop"
+  },
+  "heroThemeSlots": [
+    "theme_poster",
+    "theme_pillow",
+    "theme_rug",
+    "theme_backpack",
+    "theme_fridge_decal",
+    "theme_desk_figure",
+    "theme_blanket",
+    "theme_accent_decor"
+  ],
+  "upgradeSlots": [
+    "upgrade_desk",
+    "upgrade_chair",
+    "upgrade_wall_decor",
+    "upgrade_storage",
+    "upgrade_tech",
+    "upgrade_comfort",
+    "upgrade_savings",
+    "upgrade_extra_decor"
+  ],
+  "storyProps": [
+    "story_delivery_box",
+    "story_food_setup",
+    "story_guest_items",
+    "story_receipt",
+    "story_ball",
+    "story_bowl",
+    "story_backpack_ready",
+    "story_dirty_dishes"
+  ]
+}

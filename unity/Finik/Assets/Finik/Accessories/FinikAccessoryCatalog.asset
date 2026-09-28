@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83902234c3e99c4287e4657281daaa9, type: 3}
+  m_Name: FinikAccessoryCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::Finik.Accessories.FinikAccessoryCatalog
+  alignJoints:
+  - Hips
+  - Head
+  - LeftHand
+  entries:
+  - id: backpack_foxmini
+    title: "\u041B\u0438\u0441\u0451\u043D\u043E\u043A"
+    slot: backpack
+    bone: Spine01
+    model: {fileID: 919132149155446097, guid: 3f89944cc777c2545a3633c3236d4efa, type: 3}
+  - id: backpack_piggy
+    title: "\u041A\u043E\u043F\u0438\u043B\u043A\u0430"
+    slot: backpack
+    bone: Spine01
+    model: {fileID: 919132149155446097, guid: fad568f64edf3824a9182c4dc316abdf, type: 3}
+  - id: backpack_rolltop
+    title: "\u0420\u043E\u043B\u043B-\u0442\u043E\u043F"
+    slot: backpack
+    bone: Spine01
+    model: {fileID: 919132149155446097, guid: 7004697c4af7d0c49ac215a8e98c3921, type: 3}
+  - id: backpack_school
+    title: "\u0428\u043A\u043E\u043B\u044C\u043D\u044B\u0439"
+    slot: backpack
+    bone: Spine01
+    model: {fileID: 919132149155446097, guid: 13fc0d02c7b47a14580895f9675e627c, type: 3}
+  - id: gear_badge
+    title: "\u0417\u043D\u0430\u0447\u043E\u043A"
+    slot: star
+    bone: Spine01
+    model: {fileID: 919132149155446097, guid: af654231283641844ad148852cbe9e8b, type: 3}
+  - id: gear_beanie
+    title: "\u0428\u0430\u043F\u043A\u0430"
+    slot: cap
+    bone: Head
+    model: {fileID: 919132149155446097, guid: 61d58bcce560f974bb0968f2562f5628, type: 3}
+  - id: gear_cap
+    title: "\u041A\u0435\u043F\u043A\u0430"
+    slot: cap
+    bone: Head
+    model: {fileID: 919132149155446097, guid: a5432f8929bda6a45b0463e69f5d19d3, type: 3}
+  - id: gear_headphones
+    title: "\u041D\u0430\u0443\u0448\u043D\u0438\u043A\u0438"
+    slot: headphones
+    bone: Head
+    model: {fileID: 919132149155446097, guid: 7c4fd2edef653ac44adf990ef00efbc0, type: 3}
+  - id: gear_scarf
+    title: "\u0428\u0430\u0440\u0444"
+    slot: scarf
+    bone: neck
+    model: {fileID: 919132149155446097, guid: f74fb26b25631794fa533216fceaf3fd, type: 3}
+  - id: gear_watch
+    title: "\u0421\u043C\u0430\u0440\u0442-\u0447\u0430\u0441\u044B"
+    slot: watch
+    bone: LeftForeArm
+    model: {fileID: 919132149155446097, guid: 9499a6ff64776534fa9fd9bd96c91b9f, type: 3}
+  - id: glasses_aviator
+    title: "\u0410\u0432\u0438\u0430\u0442\u043E\u0440\u044B"
+    slot: glasses
+    bone: Head
+    model: {fileID: 919132149155446097, guid: 4fb6274db5a182840b051953e5b20496, type: 3}
+  - id: glasses_nerd
+    title: "\u041D\u0451\u0440\u0434"
+    slot: glasses
+    bone: Head
+    model: {fileID: 919132149155446097, guid: 177f215ae5372aa4192bcebefa1b770a, type: 3}
+  - id: glasses_retro
+    title: "\u0420\u0435\u0442\u0440\u043E"
+    slot: glasses
+    bone: Head
+    model: {fileID: 919132149155446097, guid: cc6ac99f9b309884eb316cfedd3d037e, type: 3}
+  - id: glasses_round
+    title: "\u041A\u0440\u0443\u0433\u043B\u044B\u0435"
+    slot: glasses
+    bone: Head
+    model: {fileID: 919132149155446097, guid: 558ddaf3c0f076c4b9b9cafdadd57a7c, type: 3}
+  - id: glasses_star
+    title: "\u0417\u0432\u0451\u0437\u0434\u044B"
+    slot: glasses
+    bone: Head
+    model: {fileID: 919132149155446097, guid: 49009f988cb3cfe4b8dc087c24c0df29, type: 3}
+  - id: glasses_visor
+    title: "\u0412\u0438\u0437\u043E\u0440"
+    slot: glasses
+    bone: Head
+    model: {fileID: 919132149155446097, guid: ed13aab8a65a4ae4690f2ccd3473d690, type: 3}

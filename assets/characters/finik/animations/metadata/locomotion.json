@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "character": "finik",
+  "clips": {
+    "walk": {
+      "animation": "Finik_Walk",
+      "loop": true,
+      "inPlace": true,
+      "duration": 1.1999999781449635,
+      "recommendedSpeedMps": 1.083333353063575,
+      "speedStatus": "initial tuning estimate from cadence",
+      "events": [
+        {
+          "name": "leftFootDown",
+          "timeNormalized": 0.5833333333333334
+        },
+        {
+          "name": "rightFootDown",
+          "timeNormalized": 0.008333333333333333
+        }
+      ]
+    },
+    "run": {
+      "animation": "Finik_Run",
+      "loop": true,
+      "inPlace": true,
+      "duration": 0.633333295583725,
+      "recommendedSpeedMps": 2.5452633096042523,
+      "speedStatus": "initial tuning estimate from cadence",
+      "events": [
+        {
+          "name": "leftFootDown",
+          "timeNormalized": 0.39166666666666666
+        },
+        {
+          "name": "rightFootDown",
+          "timeNormalized": 0.8666666666666667
+        },
+        {
+          "name": "airborneStart",
+          "timeNormalized": 0.5333333333333333
+        },
+        {
+          "name": "airborneEnd",
+          "timeNormalized": 0.6708333333333333
+        }
+      ]
+    }
+  }
+}

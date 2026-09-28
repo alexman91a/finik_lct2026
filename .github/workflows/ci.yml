@@ -1,0 +1,39 @@
+name: Проверка исходников Unity
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Проверить состав проекта и метаданные Unity
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root = Path('unity/Finik')
+          required = [
+              root / 'ProjectSettings/ProjectVersion.txt',
+              root / 'Packages/manifest.json',
+              root / 'Assets/Finik/Scenes/FinikRoomNavigationPrototype.unity',
+              root / 'Assets/Finik/Resources/Data/quest_catalog.json',
+          ]
+          for path in required:
+              if not path.is_file():
+                  raise SystemExit(f'Missing Unity project file: {path}')
+          for path in (root / 'Assets').rglob('*'):
+              if path.is_file() and path.suffix != '.meta':
+                  if not Path(str(path) + '.meta').is_file():
+                      raise SystemExit(f'Missing Unity .meta: {path}')
+          print('Unity source files and .meta files are present')
+          PY

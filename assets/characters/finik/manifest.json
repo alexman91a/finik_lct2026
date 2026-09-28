@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "character": "Finik",
+  "assets": {
+    "finik_master_front.png": {
+      "width": 900,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_master_3q.png": {
+      "width": 900,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_master_side.png": {
+      "width": 901,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_master_back.png": {
+      "width": 901,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_home.png": {
+      "width": 800,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_head_calm.png": {
+      "width": 640,
+      "height": 640,
+      "alpha": true
+    },
+    "finik_head_happy.png": {
+      "width": 640,
+      "height": 640,
+      "alpha": true
+    },
+    "finik_head_thinking.png": {
+      "width": 640,
+      "height": 640,
+      "alpha": true
+    },
+    "finik_head_alert.png": {
+      "width": 640,
+      "height": 640,
+      "alpha": true
+    },
+    "finik_head_proud.png": {
+      "width": 640,
+      "height": 640,
+      "alpha": true
+    },
+    "finik_celebrate.png": {
+      "width": 960,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_laptop.png": {
+      "width": 960,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_book.png": {
+      "width": 960,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_idea.png": {
+      "width": 800,
+      "height": 1200,
+      "alpha": true
+    },
+    "finik_avatar.png": {
+      "width": 640,
+      "height": 640,
+      "alpha": true
+    },
+    "finik_icon_small.png": {
+      "width": 256,
+      "height": 256,
+      "alpha": true
+    }
+  }
+}

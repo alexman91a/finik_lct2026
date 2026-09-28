@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs><linearGradient id="b" x1="13" y1="10" x2="35" y2="39" gradientUnits="userSpaceOnUse"><stop stop-color="#45C0FF"/><stop offset="1" stop-color="#176FDC"/></linearGradient><linearGradient id="o" x1="23" y1="22" x2="34" y2="34" gradientUnits="userSpaceOnUse"><stop stop-color="#FFC23B"/><stop offset="1" stop-color="#F47A17"/></linearGradient><filter id="s" x="6" y="5" width="36" height="39"><feDropShadow dy="1.5" stdDeviation="1.5" flood-opacity=".18"/></filter></defs>
+  <g filter="url(#s)">
+    <path d="M24 7.8 37 12v9.8c0 8.7-5.3 15.6-13 18.9-7.7-3.3-13-10.2-13-18.9V12l13-4.2Z" fill="url(#b)" stroke="#0B5FC6" stroke-width="1.5"/>
+    <path d="M19.2 23.1a4.8 4.8 0 1 1 9.6 0v2.2" stroke="#FFF9EF" stroke-width="3" stroke-linecap="round"/>
+    <rect x="17.5" y="24.2" width="13" height="10.5" rx="3" fill="#FFF9EF"/>
+    <circle cx="24" cy="28.5" r="1.7" fill="url(#o)"/>
+    <path d="M24 29.8v2.4" stroke="#F47A17" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="m32.2 27.5 5.4 5.4M35.2 24.5l5.4 5.4" stroke="url(#o)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

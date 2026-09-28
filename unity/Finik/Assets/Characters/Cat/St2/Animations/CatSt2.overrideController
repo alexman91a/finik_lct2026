@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CatSt2
+  m_Controller: {fileID: 9100000, guid: 4a2fc798821a3a44cbb200c3cc945c12, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -668517284929881770, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: be7965fb66e40aa47b42c30181dce6ab, type: 2}
+  - m_OriginalClip: {fileID: -28967562136594237, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: d0a614329d6045f4dab00d6cf6626761, type: 2}
+  - m_OriginalClip: {fileID: -3905538734816991619, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: ca733535e7103fb4e991a5c55936980b, type: 2}
+  - m_OriginalClip: {fileID: -4840454689007226090, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 24b73f7bc8fe9004d846ac656a4f13f3, type: 2}
+  - m_OriginalClip: {fileID: -1299516157290271576, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: f23a021cedf540b4a8b395e070defbda, type: 2}
+  - m_OriginalClip: {fileID: 4115344637519819691, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: c5ca089566994974ebc18af11076367c, type: 2}
+  - m_OriginalClip: {fileID: -3115151362775037019, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: d536569303818ee42a41e5bd9970cb6b, type: 2}
+  - m_OriginalClip: {fileID: -6600892774021983959, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 412c4d1922543664db5ad61dff1d7c55, type: 2}
+  - m_OriginalClip: {fileID: 7003089352278912550, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 3a673e67a509bf144b304303f8683ef0, type: 2}
+  - m_OriginalClip: {fileID: -4120883837343773751, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 20794bccdcfd118419197625a39de66a, type: 2}
+  - m_OriginalClip: {fileID: -5070440255577767184, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: b810aab521aad714faf437503d537f3e, type: 2}
+  - m_OriginalClip: {fileID: 3166945412078297657, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 6fb5d0723218798439a4093983d34471, type: 2}
+  - m_OriginalClip: {fileID: 3120020746223395887, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0fc105cbe925d1245abe54c95fc93ba0, type: 2}
+  - m_OriginalClip: {fileID: 3993029467285542876, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0fc105cbe925d1245abe54c95fc93ba0, type: 2}
+  - m_OriginalClip: {fileID: 5720112026476060971, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 95ecc3553c6752b40879e59bdd4491df, type: 2}
+  - m_OriginalClip: {fileID: -5837284895067556949, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 7db41305d83b46548862b7563845b347, type: 2}
+  - m_OriginalClip: {fileID: 3392805563332601599, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 6fb5d0723218798439a4093983d34471, type: 2}
+  - m_OriginalClip: {fileID: -5615922067134287494, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 8e7231afe927f5447abca53271808121, type: 2}
+  - m_OriginalClip: {fileID: 976559911212996656, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: d4f16c714cb62fa49b6f4e752aabc41c, type: 2}
+  - m_OriginalClip: {fileID: 47762620853703134, guid: 2cab44cb29ee39741886a57affb3f4d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0ec1b57f2256fb54eaf73d9006971a9e, type: 2}

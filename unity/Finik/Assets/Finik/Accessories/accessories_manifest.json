@@ -1,0 +1,1228 @@
+{
+  "schema": 2,
+  "generator": "art/blender/scripts/finik_build.py",
+  "alignJoints": [
+    "Hips",
+    "Head",
+    "LeftHand"
+  ],
+  "joints": [
+    {
+      "name": "Hips",
+      "position": [
+        0.0,
+        -0.19523,
+        0.80821
+      ]
+    },
+    {
+      "name": "Head",
+      "position": [
+        -0.0,
+        -0.1739,
+        1.23363
+      ]
+    },
+    {
+      "name": "LeftHand",
+      "position": [
+        0.54644,
+        -0.14702,
+        1.08472
+      ]
+    }
+  ],
+  "note": "Детали экспортированы в координатах персонажа вместе с копией скелета. FinikAccessoryRig совмещает пространства по положениям суставов alignJoints и вешает деталь на кость bone через bindpose персонажа.",
+  "items": [
+    {
+      "id": "backpack_foxmini",
+      "name": "Backpack_FoxMini",
+      "title": "Лисёнок",
+      "vibe": "детский с мордочкой",
+      "slot": "backpack",
+      "bone": "Spine01",
+      "file": "Backpack_FoxMini.fbx",
+      "parts": [
+        "Backpack_FoxMini_Body",
+        "Backpack_FoxMini_Cream",
+        "Backpack_FoxMini_Dark",
+        "Backpack_FoxMini_Metal",
+        "Backpack_FoxMini_Straps"
+      ],
+      "triangles": 6392,
+      "materials": [
+        {
+          "name": "Acc_Bag_Fox",
+          "color": [
+            1.0,
+            0.4784,
+            0.1961
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.5,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Bag_FoxCream",
+          "color": [
+            1.0,
+            0.9451,
+            0.8863
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.52,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Bag_FoxDark",
+          "color": [
+            0.2314,
+            0.1373,
+            0.0941
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.6,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Buckle",
+          "color": [
+            1.0,
+            0.7882,
+            0.2902
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.72,
+          "metallic": 0.9,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_StrapBrown",
+          "color": [
+            0.5412,
+            0.3529,
+            0.2314
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.42,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        -0.00026,
+        -0.00891,
+        1.03412
+      ]
+    },
+    {
+      "id": "backpack_piggy",
+      "name": "Backpack_Piggy",
+      "title": "Копилка",
+      "vibe": "прорезь и монетка",
+      "slot": "backpack",
+      "bone": "Spine01",
+      "file": "Backpack_Piggy.fbx",
+      "parts": [
+        "Backpack_Piggy_Body",
+        "Backpack_Piggy_Coin",
+        "Backpack_Piggy_Dark",
+        "Backpack_Piggy_Face",
+        "Backpack_Piggy_Straps"
+      ],
+      "triangles": 5836,
+      "materials": [
+        {
+          "name": "Acc_Bag_Piggy",
+          "color": [
+            0.9569,
+            0.3725,
+            0.5529
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.54,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Coin",
+          "color": [
+            1.0,
+            0.7882,
+            0.2902
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.76,
+          "metallic": 1.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Bag_PiggyDark",
+          "color": [
+            0.2275,
+            0.1412,
+            0.1882
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.62,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Bag_PiggyFace",
+          "color": [
+            1.0,
+            0.702,
+            0.8
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.56,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_StrapPink",
+          "color": [
+            0.7882,
+            0.2667,
+            0.4471
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.44,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        0.00101,
+        -0.00946,
+        1.01608
+      ]
+    },
+    {
+      "id": "backpack_rolltop",
+      "name": "Backpack_RollTop",
+      "title": "Ролл-топ",
+      "vibe": "городской минимализм",
+      "slot": "backpack",
+      "bone": "Spine01",
+      "file": "Backpack_RollTop.fbx",
+      "parts": [
+        "Backpack_RollTop_Body",
+        "Backpack_RollTop_Metal",
+        "Backpack_RollTop_Straps",
+        "Backpack_RollTop_Trim"
+      ],
+      "triangles": 3792,
+      "materials": [
+        {
+          "name": "Acc_Bag_Roll",
+          "color": [
+            0.2235,
+            0.2549,
+            0.3059
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.42,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_BuckleSilver",
+          "color": [
+            0.7843,
+            0.8,
+            0.8314
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.7,
+          "metallic": 0.9,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_StrapMint",
+          "color": [
+            0.1216,
+            0.5608,
+            0.3765
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.42,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Bag_RollTrim",
+          "color": [
+            0.1569,
+            0.7176,
+            0.4824
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.5,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        -1e-05,
+        -0.03006,
+        0.98808
+      ]
+    },
+    {
+      "id": "backpack_school",
+      "name": "Backpack_School",
+      "title": "Школьный",
+      "vibe": "клапан, карман, пряжки",
+      "slot": "backpack",
+      "bone": "Spine01",
+      "file": "Backpack_School.fbx",
+      "parts": [
+        "Backpack_School_Body",
+        "Backpack_School_Metal",
+        "Backpack_School_Straps",
+        "Backpack_School_Trim"
+      ],
+      "triangles": 5036,
+      "materials": [
+        {
+          "name": "Acc_Bag_School",
+          "color": [
+            0.4235,
+            0.3882,
+            1.0
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.48,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Buckle",
+          "color": [
+            1.0,
+            0.7882,
+            0.2902
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.72,
+          "metallic": 0.9,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_StrapDark",
+          "color": [
+            0.1843,
+            0.1922,
+            0.251
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.4,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Bag_SchoolTrim",
+          "color": [
+            0.1922,
+            0.1686,
+            0.549
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.5,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        0.0,
+        -0.03031,
+        0.99764
+      ]
+    },
+    {
+      "id": "gear_badge",
+      "name": "Gear_Badge",
+      "title": "Значок",
+      "vibe": "звезда на груди",
+      "slot": "star",
+      "bone": "Spine01",
+      "file": "Gear_Badge.fbx",
+      "parts": [
+        "Gear_Badge_Ring",
+        "Gear_Badge_Star"
+      ],
+      "triangles": 472,
+      "materials": [
+        {
+          "name": "Acc_BadgeRing",
+          "color": [
+            0.7608,
+            0.298,
+            0.4784
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.58,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_BadgeStar",
+          "color": [
+            1.0,
+            0.7882,
+            0.2902
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.74,
+          "metallic": 0.85,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        0.08603,
+        -0.26904,
+        1.06002
+      ]
+    },
+    {
+      "id": "gear_beanie",
+      "name": "Gear_Beanie",
+      "title": "Шапка",
+      "vibe": "с помпоном",
+      "slot": "cap",
+      "bone": "Head",
+      "file": "Gear_Beanie.fbx",
+      "parts": [
+        "Gear_Beanie_Binding",
+        "Gear_Beanie_Body",
+        "Gear_Beanie_Cuff",
+        "Gear_Beanie_Pom",
+        "Gear_Beanie_Rib",
+        "Gear_Beanie_Trim"
+      ],
+      "triangles": 15668,
+      "materials": [
+        {
+          "name": "Acc_BeanieTrim",
+          "color": [
+            0.9569,
+            0.9843,
+            1.0
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.2,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Beanie",
+          "color": [
+            0.1647,
+            0.6824,
+            0.949
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.18,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_BeanieCuff",
+          "color": [
+            0.498,
+            0.7961,
+            0.9569
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.16,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_BeanieRib",
+          "color": [
+            0.1176,
+            0.5608,
+            0.7961
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.16,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        -0.00055,
+        -0.18971,
+        1.55019
+      ]
+    },
+    {
+      "id": "gear_cap",
+      "name": "Gear_Cap",
+      "title": "Кепка",
+      "vibe": "козырёк вперёд",
+      "slot": "cap",
+      "bone": "Head",
+      "file": "Gear_Cap.fbx",
+      "parts": [
+        "Gear_Cap_Band",
+        "Gear_Cap_Brim",
+        "Gear_Cap_Crown",
+        "Gear_Cap_Trim"
+      ],
+      "triangles": 10208,
+      "materials": [
+        {
+          "name": "Acc_CapBrim",
+          "color": [
+            0.1843,
+            0.1647,
+            0.5255
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.45,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_Cap",
+          "color": [
+            0.4235,
+            0.3882,
+            1.0
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.38,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_CapTrim",
+          "color": [
+            1.0,
+            0.7882,
+            0.2902
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.55,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        -0.0,
+        -0.19589,
+        1.54772
+      ]
+    },
+    {
+      "id": "gear_headphones",
+      "name": "Gear_Headphones",
+      "title": "Наушники",
+      "vibe": "накладные",
+      "slot": "headphones",
+      "bone": "Head",
+      "file": "Gear_Headphones.fbx",
+      "parts": [
+        "Gear_Headphones_Band",
+        "Gear_Headphones_Cups",
+        "Gear_Headphones_Pads",
+        "Gear_Headphones_Ring"
+      ],
+      "triangles": 6192,
+      "materials": [
+        {
+          "name": "Acc_HpBand",
+          "color": [
+            0.1412,
+            0.1451,
+            0.1765
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.6,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_HpCup",
+          "color": [
+            0.4235,
+            0.3882,
+            1.0
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.64,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_HpPad",
+          "color": [
+            0.1686,
+            0.1725,
+            0.2118
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.22,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_HpRing",
+          "color": [
+            1.0,
+            0.7882,
+            0.2902
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.7,
+          "metallic": 0.6,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        -0.00033,
+        -0.03608,
+        1.38893
+      ]
+    },
+    {
+      "id": "gear_scarf",
+      "name": "Gear_Scarf",
+      "title": "Шарф",
+      "vibe": "вязаный в полоску",
+      "slot": "scarf",
+      "bone": "neck",
+      "file": "Gear_Scarf.fbx",
+      "parts": [
+        "Gear_Scarf_Body",
+        "Gear_Scarf_Fringe",
+        "Gear_Scarf_Stripe"
+      ],
+      "triangles": 9404,
+      "materials": [
+        {
+          "name": "Acc_Scarf",
+          "color": [
+            0.9569,
+            0.3725,
+            0.5529
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.14,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_ScarfStripe",
+          "color": [
+            1.0,
+            0.9725,
+            0.9451
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.14,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        0.02198,
+        -0.16796,
+        1.1545
+      ]
+    },
+    {
+      "id": "gear_watch",
+      "name": "Gear_Watch",
+      "title": "Смарт-часы",
+      "vibe": "финансовый трекер",
+      "slot": "watch",
+      "bone": "LeftForeArm",
+      "file": "Gear_Watch.fbx",
+      "parts": [
+        "Gear_Watch_Case",
+        "Gear_Watch_Screen",
+        "Gear_Watch_Strap",
+        "Gear_Watch_UI"
+      ],
+      "triangles": 2732,
+      "materials": [
+        {
+          "name": "Acc_WatchCase",
+          "color": [
+            0.7843,
+            0.8,
+            0.8314
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.76,
+          "metallic": 0.9,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_WatchScreen",
+          "color": [
+            0.0627,
+            0.0941,
+            0.1569
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.92,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_WatchStrap",
+          "color": [
+            0.1569,
+            0.7176,
+            0.4824
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.4,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_WatchUI",
+          "color": [
+            0.1569,
+            0.7176,
+            0.4824
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.7,
+          "metallic": 0.0,
+          "emission": [
+            0.3608,
+            0.949,
+            0.6902
+          ],
+          "emissionStrength": 3.0
+        }
+      ],
+      "centroid": [
+        0.50172,
+        -0.14561,
+        1.09003
+      ]
+    },
+    {
+      "id": "glasses_aviator",
+      "name": "Glasses_Aviator",
+      "title": "Авиаторы",
+      "vibe": "затемнённые линзы",
+      "slot": "glasses",
+      "bone": "Head",
+      "file": "Glasses_Aviator.fbx",
+      "parts": [
+        "Glasses_Aviator_Frame",
+        "Glasses_Aviator_Lens"
+      ],
+      "triangles": 2284,
+      "materials": [
+        {
+          "name": "Acc_Silver",
+          "color": [
+            0.7843,
+            0.8,
+            0.8314
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.75,
+          "metallic": 1.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_LensTint",
+          "color": [
+            0.1059,
+            0.1333,
+            0.1882
+          ],
+          "alpha": 0.82,
+          "smoothness": 0.94,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        2e-05,
+        -0.32927,
+        1.35847
+      ]
+    },
+    {
+      "id": "glasses_nerd",
+      "name": "Glasses_Nerd",
+      "title": "Нёрд",
+      "vibe": "крупная тёмная оправа",
+      "slot": "glasses",
+      "bone": "Head",
+      "file": "Glasses_Nerd.fbx",
+      "parts": [
+        "Glasses_Nerd_Frame",
+        "Glasses_Nerd_Lens"
+      ],
+      "triangles": 1636,
+      "materials": [
+        {
+          "name": "Acc_FrameDark",
+          "color": [
+            0.1412,
+            0.1451,
+            0.1765
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.66,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_LensClear",
+          "color": [
+            0.9098,
+            0.9569,
+            1.0
+          ],
+          "alpha": 0.24,
+          "smoothness": 0.95,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        1e-05,
+        -0.33016,
+        1.34894
+      ]
+    },
+    {
+      "id": "glasses_retro",
+      "name": "Glasses_Retro",
+      "title": "Ретро",
+      "vibe": "фиолетовая оправа",
+      "slot": "glasses",
+      "bone": "Head",
+      "file": "Glasses_Retro.fbx",
+      "parts": [
+        "Glasses_Retro_Frame",
+        "Glasses_Retro_Lens"
+      ],
+      "triangles": 1636,
+      "materials": [
+        {
+          "name": "Acc_FrameAccent",
+          "color": [
+            0.4235,
+            0.3882,
+            1.0
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.7,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_LensClear",
+          "color": [
+            0.9098,
+            0.9569,
+            1.0
+          ],
+          "alpha": 0.24,
+          "smoothness": 0.95,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        -0.0,
+        -0.33067,
+        1.34832
+      ]
+    },
+    {
+      "id": "glasses_round",
+      "name": "Glasses_Round",
+      "title": "Круглые",
+      "vibe": "умный вайб",
+      "slot": "glasses",
+      "bone": "Head",
+      "file": "Glasses_Round.fbx",
+      "parts": [
+        "Glasses_Round_Frame",
+        "Glasses_Round_Lens"
+      ],
+      "triangles": 1444,
+      "materials": [
+        {
+          "name": "Acc_Gold",
+          "color": [
+            1.0,
+            0.7882,
+            0.2902
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.78,
+          "metallic": 1.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_LensClear",
+          "color": [
+            0.9098,
+            0.9569,
+            1.0
+          ],
+          "alpha": 0.24,
+          "smoothness": 0.95,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        -0.0,
+        -0.32601,
+        1.34839
+      ]
+    },
+    {
+      "id": "glasses_star",
+      "name": "Glasses_Star",
+      "title": "Звёзды",
+      "vibe": "тусовочные",
+      "slot": "glasses",
+      "bone": "Head",
+      "file": "Glasses_Star.fbx",
+      "parts": [
+        "Glasses_Star_Frame",
+        "Glasses_Star_Lens"
+      ],
+      "triangles": 1764,
+      "materials": [
+        {
+          "name": "Acc_FramePink",
+          "color": [
+            0.9569,
+            0.3725,
+            0.5529
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.7,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_LensRose",
+          "color": [
+            1.0,
+            0.7137,
+            0.8157
+          ],
+          "alpha": 0.52,
+          "smoothness": 0.94,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        0.0,
+        -0.32793,
+        1.3467
+      ]
+    },
+    {
+      "id": "glasses_visor",
+      "name": "Glasses_Visor",
+      "title": "Визор",
+      "vibe": "спортивный цельный",
+      "slot": "glasses",
+      "bone": "Head",
+      "file": "Glasses_Visor.fbx",
+      "parts": [
+        "Glasses_Visor_Frame",
+        "Glasses_Visor_Lens"
+      ],
+      "triangles": 1480,
+      "materials": [
+        {
+          "name": "Acc_FrameDark",
+          "color": [
+            0.1412,
+            0.1451,
+            0.1765
+          ],
+          "alpha": 1.0,
+          "smoothness": 0.66,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        },
+        {
+          "name": "Acc_LensSun",
+          "color": [
+            1.0,
+            0.4784,
+            0.1961
+          ],
+          "alpha": 0.62,
+          "smoothness": 0.92,
+          "metallic": 0.0,
+          "emission": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "emissionStrength": 0.0
+        }
+      ],
+      "centroid": [
+        0.0,
+        -0.3288,
+        1.35221
+      ]
+    }
+  ]
+}
